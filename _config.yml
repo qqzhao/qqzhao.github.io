@@ -83,3 +83,8 @@ friends: [
         href: "http://www.lisibb.com"
     }
 ]
+
+# myconfig
+#imagepath: "http://127.0.0.1:4000/img/"
+imagepath: "qqzhao.github.io/img/"
+showauthor: "qqzhao"

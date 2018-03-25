@@ -12,8 +12,10 @@
         "template"
     ],
     "scripts": {
-        "dev": "bundle exec jekyll serve & node bin/start.js",
-        "commit": "node bin/commit.js"
+        "dev": "bundle exec jekyll serve",
+        "server": "node bin/start.js",
+        "commit": "node bin/commit.js",
+        "new": "node bin/new.js"
     },
     "homepage": "https://startbootstrap.com/template-overviews/clean-blog",
     "bugs": {
@@ -38,11 +40,14 @@
     },
     "devDependencies": {
         "browser-sync": "2.23.6",
+        "commander": "^2.15.1",
         "gulp": "^3.9.1",
         "gulp-clean-css": "3.9.2",
         "gulp-header": "2.0.1",
         "gulp-rename": "^1.2.2",
         "gulp-sass": "^3.1.0",
-        "gulp-uglify": "3.0.0"
+        "gulp-uglify": "3.0.0",
+        "mem-fs": "^1.1.3",
+        "mem-fs-editor": "^4.0.0"
     }
 }

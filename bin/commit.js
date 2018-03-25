@@ -29,7 +29,7 @@ const task = function  () {
     let date = new Date();
 
     Git.add();
-    Git.commit(`update on [${date.getFullYear()}-${(date.getMonth() + 1)}-${date.getDate()}]`);
+    Git.commit(`update on [${date.getFullYear()}-${(date.getMonth() + 1)}-${date.getDate()} ${date.getHours()}:${date.getMinutes()}]`);
     Git.push();
 }
 
