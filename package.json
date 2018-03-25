@@ -13,7 +13,7 @@
     ],
     "scripts": {
         "dev": "bundle exec jekyll serve & node bin/start.js",
-        "commit": "node /bin/commit.js"
+        "commit": "node bin/commit.js"
     },
     "homepage": "https://startbootstrap.com/template-overviews/clean-blog",
     "bugs": {
