@@ -47,19 +47,14 @@ kramdown:
 
 
 # Livere settings
-# livere_userid: 
+livere_userid: MTAyMC8zNTE4MC8xMTcxNQ 
 # Disqus settings
-#disqus_username: 
-
-# Duoshuo settings
-#duoshuo_username: 
-# Share component is depend on Comment so we can NOT use share only.
-#duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+# disqus_username: qqzhao
 
 
 # Analytics settings
 # Baidu Analytics
-# ba_track_id: 57bc9aa8fa52f13b45b8480cacb9cc67
+ba_track_id: 4e35d5cf9a4a485ca1afca5185783629
 # Google Analytics
 #ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
 #ga_domain: huangxuan.me
@@ -77,15 +72,14 @@ featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
-
 # Friends
 friends: [
     {
-        title: "aaa",
-        href: "http://aaa.com"
+        title: "zhangsan",
+        href: "http://zhangsanaa.com"
     },
     {
-        title: "没有人哦",
-        href: "http://www.bbb.com"
+        title: "ninini",
+        href: "http://www.lisibb.com"
     }
 ]

@@ -1,3 +1,17 @@
+---
+layout: post
+title: "开篇---Hux blog 模板"
+subtitle: "Hux blog 模板以及构建方法说明"
+date: 2018-03-25
+author: "huxpro"
+header-img: "img/bg-post.jpg"
+catalog: true
+tags: 
+    - blog
+    - jekyll
+    - hux
+---
+
 # Hux blog 模板
 
 ### [我的博客在这里 &rarr;](http://huxpro.github.io)
@@ -146,7 +160,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 
 唯一需要注意的是`featured-condition-size`: 如果一个标签的 SIZE，也就是使用该标签的文章数大于上面设定的条件值，这个标签就会在首页上被推荐。
  
-内部有一个条件模板 `{% if tag[1].size > {{site.featured-condition-size}} %}` 是用来做筛选过滤的.
+内部有一个条件模板 `{'%' if tag[1].size > {{site.featured-condition-size}} '%'}` 是用来做筛选过滤的.
 
 
 #### Friends
@@ -254,5 +268,6 @@ JavaScript 的压缩混淆、Less 的编译、Apache 2.0 许可通告的添加�
 
 3. 感谢 Jekyll、Github Pages 和 Bootstrap!
 
-
-
+### 许可协议
+* 本文遵守创作共享 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank"><b>CC BY-NC-SA 3.0协议</b></a>
+* 商业用途转载请联系作者

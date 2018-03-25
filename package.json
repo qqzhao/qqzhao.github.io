@@ -11,6 +11,10 @@
         "theme",
         "template"
     ],
+    "scripts": {
+        "dev": "bundle exec jekyll serve & node bin/start.js",
+        "commit": "node /bin/commit.js"
+    },
     "homepage": "https://startbootstrap.com/template-overviews/clean-blog",
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/issues",
